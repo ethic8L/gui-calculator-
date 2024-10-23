@@ -90,7 +90,7 @@ if __name__ == "__main__":
                      command=lambda: press(0), height=1, width=7)
     button0.grid(row=5, column=0)
 
-    plus = Button(gui, text=' + ', fg='black', bg='red',
+    plus = Button(gui, text=' + ', fg='black',  bg='red',
                   command=lambda: press("+"), height=1, width=7)
     plus.grid(row=2, column=3)
 
